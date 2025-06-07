@@ -1,0 +1,7 @@
+__pycache__
+run*.bat
+geckodriver*
+.python-version
+.venv
+pyproject.toml
+uv.lock
