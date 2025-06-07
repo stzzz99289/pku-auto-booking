@@ -196,6 +196,7 @@ def book(driver, start_time_list, end_time_list, delta_day_list, venue, venue_nu
             EC.visibility_of_element_located((By.CLASS_NAME, "loading.ivu-spin.ivu-spin-large.ivu-spin-fix")))
         driver.find_element(By.XPATH,
                             f'/html/body/div[1]/div/div/div[3]/div[2]/div/div[1]/div[2]/div[1]/div[2]/div[{delta_day + 1}]').click()
+        print("moved to date %d" % (delta_day + 1))
         # time.sleep(0.2)
 
     def next_page():
