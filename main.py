@@ -62,7 +62,7 @@ def page(config):
     # launch firefox browser
     firefox_options = Firefox_Options()
     firefox_options.add_argument("--headless")
-    service = Service(executable_path='drivers/geckodriver')
+    service = Service(executable_path='geckodriver')
     driver = webdriver.Firefox(service=service, options=firefox_options)
     print('Firefox browser launched\n')
 
@@ -169,7 +169,7 @@ def multi_run(lst_conf, browser="chrome"):
 
 
 if __name__ == '__main__':
-    repeat_times = 3
+    repeat_times = 1
     for i in range(repeat_times):
         status_main = page('config0.ini')
         if status_main:

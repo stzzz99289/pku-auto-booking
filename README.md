@@ -17,7 +17,7 @@ ref: https://github.com/qqworld-tutu/PKUautoBookingVenues-fixed-by-cq-tutu
 
 - Firefox driver
     - download link: https://github.com/mozilla/geckodriver/releases
-    - download geckodriver for your platform and extract the executable to the `drivers/` folder.
+    - download geckodriver for your platform and extract the executable to the same folder as `main.py`.
 
 ## Usage
 
